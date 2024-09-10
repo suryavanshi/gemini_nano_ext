@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gemini Content Chat</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    #chatBox {
+      flex-grow: 1;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    #promptInput {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    .message {
+      margin-bottom: 10px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+    .user {
+      background-color: #e6f3ff;
+      text-align: right;
+    }
+    .assistant {
+      background-color: #f0f0f0;
+    }
+    #loadingIndicator {
+      display: none;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatBox"></div>
+  <div id="loadingIndicator">Loading page content...</div>
+  <textarea id="promptInput" rows="3" placeholder="Ask about the page content..."></textarea>
+  <button id="submitPrompt">Send</button>
+  <script src="sidebar.js"></script>
+</body>
+</html>

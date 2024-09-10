@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini Content Chat",
+    "version": "1.0",
+    "description": "Chat with Gemini about the current page content",
+    "permissions": ["activeTab", "scripting", "sidePanel"],
+    "side_panel": {
+      "default_path": "sidebar.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Open Gemini Content Chat"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
