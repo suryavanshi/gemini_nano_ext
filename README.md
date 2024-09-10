@@ -1,6 +1,6 @@
 # 🤖💬 Gemini Content Chat - Chrome Extension
 
-Gemini Content Chat is a Chrome extension that allows you to chat with Google's Gemini Nano LLM about the content of the current webpage. It uses the Gemini nano LLM embedded in Chrome to provide intelligent responses based on the page content.
+Gemini Content Chat is a Chrome extension built at a AGIHouse Hackathon that allows you to chat with Google's Gemini Nano LLM about the content of the current webpage. It uses the Gemini nano LLM embedded in Chrome to provide intelligent responses based on the page content.
 
 Also checkout MediaPipe Studio for various other on device models for Web and Android for applications like Object Detection, Pose Detection etc. The Gemma2 LLM is also available.
 
